@@ -1,0 +1,20 @@
+{
+    "name": "kantee/slim-todo-app",
+    "description": "A simple todo app using Slim Framework",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Kantee",
+            "email": "kantee@gmail.com"
+        }
+    ],
+    "require": {
+        "slim/slim": "^4.14",
+        "slim/twig-view": "^3.4",
+        "slim/psr7": "^1.7"
+    },
+    "autoload": {
+        "psr-4": { "kantee\\": "src/" }
+    }
+}
